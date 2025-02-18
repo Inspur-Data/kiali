@@ -1,3 +1,6 @@
+当前版本是inspurdata自用版，最近一次修改是202410.
+修改后，可以直接go build构建二进制，覆盖原有镜像中的二进制即可
+
 = Kiali image:https://img.shields.io/twitter/url/http/shields.io.svg?style=social["Tweet about Kiali", link="https://twitter.com/intent/tweet?text=Learn%20what%20your%20Istio-Mesh%20is%20doing.%20Visit%20https://www.kiali.io/%20and%20@kiali_project"]
 :toc: macro
 :toc-title:
