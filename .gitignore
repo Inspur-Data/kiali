@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# The compiled binary
+/kiali
+
+# Files specific to our build process
+_output
+
+# Swap files
+.*.sw*
+
+# Eclipse
+.project
+.settings/
+
+# IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# The vendor directory is to be committed to the git repo
+#vendor/
+
+# Configuration files for the hack scripts
+hack/*.local.sh
+
+# E2E testing files
+tests/e2e/.pytest_cache
+tests/e2e/**/__pycache__
+tests/e2e/.kiali-e2e/
+
+# Do not commit operator code to this repo
+operator
+
+# Do not commit helm-charts code to this repo
+helm-charts
